@@ -1,0 +1,1 @@
+pyinstaller -w -i 1.ico --name=黑神话悟空预览.exe -F main.py -p pic_base64_data.py -p music_base64_data.py
