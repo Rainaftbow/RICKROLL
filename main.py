@@ -74,6 +74,7 @@ def play_music():
 
 def play_video():
     """浏览器播放视频"""
+    sound_open()  # 音量调整
     webbrowser.open("https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4")
 
     # 移除光标显示
